@@ -33,14 +33,10 @@ public class MergeSort {
         mergesort(input, 0, input.length - 1); 
     }
 
-
     public static void main(String[] args) { 
         System.out.println("mergesort"); 
         int[] input = { 2, 3, 6, 7, 8, 4 };
-        System.out.println("array before sorting"); 
-        System.out.println(Arrays.toString(input));
         mergesort(input); 
-        System.out.println("array after sorting using mergesort algorithm"); 
         System.out.println(Arrays.toString(input)); 
     }    
 }
